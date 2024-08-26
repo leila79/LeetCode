@@ -1,4 +1,4 @@
-package task.nashan;
+package task.leetcode;
 
 public class RemoveElement {
     public int removeElement(int[] nums, int val) {

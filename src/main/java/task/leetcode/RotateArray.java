@@ -1,4 +1,4 @@
-package task.nashan;
+package task.leetcode;
 
 import java.util.Arrays;
 

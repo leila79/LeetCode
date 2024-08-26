@@ -1,4 +1,4 @@
-package task.nashan;
+package task.leetcode;
 
 public class RemoveDuplicatesSortedArray {
     public int removeDuplicates(int[] nums) {
