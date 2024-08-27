@@ -42,9 +42,12 @@ public class Main {
 //        Stock stock = new Stock();
 //        int k = stock.maxProfit_two(prices);
 //        System.out.println(k);
+//        int[] nums = new int[]{0};
+//        JumpGame jumpGame = new JumpGame();
+//        System.out.println( jumpGame.canJump(nums));
         int[] nums = new int[]{0};
-        JumpGame jumpGame = new JumpGame();
-        System.out.println( jumpGame.canJump(nums));
+        JumpGameII jumpGameII = new JumpGameII();
+        System.out.println( jumpGameII.jump(nums));
 
     }
 }
