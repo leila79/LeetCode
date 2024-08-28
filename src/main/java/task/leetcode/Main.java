@@ -45,9 +45,12 @@ public class Main {
 //        int[] nums = new int[]{0};
 //        JumpGame jumpGame = new JumpGame();
 //        System.out.println( jumpGame.canJump(nums));
-        int[] nums = new int[]{0};
-        JumpGameII jumpGameII = new JumpGameII();
-        System.out.println( jumpGameII.jump(nums));
+//        int[] nums = new int[]{0};
+//        JumpGameII jumpGameII = new JumpGameII();
+//        System.out.println( jumpGameII.jump(nums));
+        int[] nums = new int[]{100};
+        HIndex hIndex = new HIndex();
+        System.out.println(hIndex.hIndex(nums));
 
     }
 }
