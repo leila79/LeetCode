@@ -48,9 +48,17 @@ public class Main {
 //        int[] nums = new int[]{0};
 //        JumpGameII jumpGameII = new JumpGameII();
 //        System.out.println( jumpGameII.jump(nums));
-        int[] nums = new int[]{100};
-        HIndex hIndex = new HIndex();
-        System.out.println(hIndex.hIndex(nums));
+//        int[] nums = new int[]{100};
+//        HIndex hIndex = new HIndex();
+//        System.out.println(hIndex.hIndex(nums));
+        RandomizedSet obj = new RandomizedSet();
+        boolean param_1 = obj.insert(1);
+        boolean param_2 = obj.remove(2);
+        boolean param_4 = obj.insert(2);
+        int param_3 = obj.getRandom();
+        boolean param_5 = obj.remove(1);
+        boolean param_6 = obj.insert(2);
+        int param_7 = obj.getRandom();
 
     }
 }
