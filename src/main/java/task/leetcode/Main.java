@@ -65,9 +65,13 @@ public class Main {
 //        int[] nums = new int[]{5,7,3,2};
 //        System.out.println(Arrays.toString(productArrayExceptSelf.productExceptSelf(nums)));
 
-        GasStation gasStation = new GasStation();
-        int[] gas = new int[]{5,1,2,3,4};
-        int[] cost = new int[]{2,3,4,5,1};
-        System.out.println(gasStation.canCompleteCircuit(gas, cost));
+//        GasStation gasStation = new GasStation();
+//        int[] gas = new int[]{5,1,2,3,4};
+//        int[] cost = new int[]{2,3,4,5,1};
+//        System.out.println(gasStation.canCompleteCircuit(gas, cost));
+
+        Candy candy = new Candy();
+        int[] ratings = new int[]{29,51,87,87,72,12};
+        System.out.println(candy.candy(ratings));
     }
 }
