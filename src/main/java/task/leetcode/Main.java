@@ -61,9 +61,13 @@ public class Main {
 //        boolean param_5 = obj.remove(1);
 //        boolean param_6 = obj.insert(2);
 //        int param_7 = obj.getRandom();
-        ProductArrayExceptSelf productArrayExceptSelf = new ProductArrayExceptSelf();
-        int[] nums = new int[]{5,7,3,2};
-        System.out.println(Arrays.toString(productArrayExceptSelf.productExceptSelf(nums)));
+//        ProductArrayExceptSelf productArrayExceptSelf = new ProductArrayExceptSelf();
+//        int[] nums = new int[]{5,7,3,2};
+//        System.out.println(Arrays.toString(productArrayExceptSelf.productExceptSelf(nums)));
 
+        GasStation gasStation = new GasStation();
+        int[] gas = new int[]{5,1,2,3,4};
+        int[] cost = new int[]{2,3,4,5,1};
+        System.out.println(gasStation.canCompleteCircuit(gas, cost));
     }
 }
