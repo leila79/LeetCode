@@ -70,8 +70,12 @@ public class Main {
 //        int[] cost = new int[]{2,3,4,5,1};
 //        System.out.println(gasStation.canCompleteCircuit(gas, cost));
 
-        Candy candy = new Candy();
-        int[] ratings = new int[]{29,51,87,87,72,12};
-        System.out.println(candy.candy(ratings));
+//        Candy candy = new Candy();
+//        int[] ratings = new int[]{29,51,87,87,72,12};
+//        System.out.println(candy.candy(ratings));
+
+        TrappingRainWater trappingRainWater = new TrappingRainWater();
+        int[] heights = new int[]{4,2,3};
+        System.out.println(trappingRainWater.trap(heights));
     }
 }
