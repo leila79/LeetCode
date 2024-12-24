@@ -74,8 +74,11 @@ public class Main {
 //        int[] ratings = new int[]{29,51,87,87,72,12};
 //        System.out.println(candy.candy(ratings));
 
-        TrappingRainWater trappingRainWater = new TrappingRainWater();
-        int[] heights = new int[]{4,2,3};
-        System.out.println(trappingRainWater.trap(heights));
+//        TrappingRainWater trappingRainWater = new TrappingRainWater();
+//        int[] heights = new int[]{4,2,3};
+//        System.out.println(trappingRainWater.trap(heights));
+
+        RomaToInteger romaToInteger = new RomaToInteger();
+        System.out.println(romaToInteger.romanToInt("MCMXCIV"));;
     }
 }
