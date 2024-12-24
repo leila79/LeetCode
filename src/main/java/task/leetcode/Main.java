@@ -1,8 +1,6 @@
 package task.leetcode;
 
 
-import java.util.Arrays;
-
 public class Main {
     public static void main(String[] args) {
 //        MergeSortedArray mergeSortedArray = new MergeSortedArray();
@@ -78,7 +76,10 @@ public class Main {
 //        int[] heights = new int[]{4,2,3};
 //        System.out.println(trappingRainWater.trap(heights));
 
-        RomaToInteger romaToInteger = new RomaToInteger();
-        System.out.println(romaToInteger.romanToInt("MCMXCIV"));;
+//        RomanToInteger romaToInteger = new RomanToInteger();
+//        System.out.println(romaToInteger.romanToInt("MCMXCIV"));;
+
+        IntegerToRoman integerToRoman = new IntegerToRoman();
+        System.out.println(integerToRoman.intToRomanMyWay(58));
     }
 }

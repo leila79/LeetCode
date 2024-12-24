@@ -1,11 +1,8 @@
 package task.leetcode;
 
-import java.util.Arrays;
-import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 
-public class RomaToInteger {
+public class RomanToInteger {
     /*
     Symbol       Value
     I             1
