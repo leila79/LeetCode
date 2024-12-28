@@ -90,8 +90,11 @@ public class Main {
 //        String[] strs = new String[]{"dog","racecar","car"};
 //        longestCommonPrefix.longestCommonPrefix(strs);
 
-        ReverseWordsInString reverseWordsInString = new ReverseWordsInString();
-        String s = reverseWordsInString.reverseWords("the sky is blue");
-        System.out.println(s);
+//        ReverseWordsInString reverseWordsInString = new ReverseWordsInString();
+//        String s = reverseWordsInString.reverseWords("the sky is blue");
+//        System.out.println(s);
+
+        ZigzagConversion zigzagConversion = new ZigzagConversion();
+        System.out.println(zigzagConversion.convert("PAYPALISHIRING",  4));
     }
 }
