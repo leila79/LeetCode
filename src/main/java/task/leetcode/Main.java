@@ -86,8 +86,12 @@ public class Main {
 //        int length = lengthOfLastWord.lengthOfLastWord("kkjdhsfkj jhdflkah kshdfka oiehrebfvids");
 //        System.out.println(length);
 
-        LongestCommonPrefix longestCommonPrefix = new LongestCommonPrefix();
-        String[] strs = new String[]{"dog","racecar","car"};
-        longestCommonPrefix.longestCommonPrefix(strs);
+//        LongestCommonPrefix longestCommonPrefix = new LongestCommonPrefix();
+//        String[] strs = new String[]{"dog","racecar","car"};
+//        longestCommonPrefix.longestCommonPrefix(strs);
+
+        ReverseWordsInString reverseWordsInString = new ReverseWordsInString();
+        String s = reverseWordsInString.reverseWords("the sky is blue");
+        System.out.println(s);
     }
 }
