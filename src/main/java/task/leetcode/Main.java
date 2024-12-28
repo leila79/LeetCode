@@ -81,9 +81,13 @@ public class Main {
 
 //        IntegerToRoman integerToRoman = new IntegerToRoman();
 //        System.out.println(integerToRoman.intToRomanMyWay(58));
+//
+//        LengthOfLastWord lengthOfLastWord = new LengthOfLastWord();
+//        int length = lengthOfLastWord.lengthOfLastWord("kkjdhsfkj jhdflkah kshdfka oiehrebfvids");
+//        System.out.println(length);
 
-        LengthOfLastWord lengthOfLastWord = new LengthOfLastWord();
-        int length = lengthOfLastWord.lengthOfLastWord("kkjdhsfkj jhdflkah kshdfka oiehrebfvids");
-        System.out.println(length);
+        LongestCommonPrefix longestCommonPrefix = new LongestCommonPrefix();
+        String[] strs = new String[]{"dog","racecar","car"};
+        longestCommonPrefix.longestCommonPrefix(strs);
     }
 }
