@@ -79,7 +79,11 @@ public class Main {
 //        RomanToInteger romaToInteger = new RomanToInteger();
 //        System.out.println(romaToInteger.romanToInt("MCMXCIV"));;
 
-        IntegerToRoman integerToRoman = new IntegerToRoman();
-        System.out.println(integerToRoman.intToRomanMyWay(58));
+//        IntegerToRoman integerToRoman = new IntegerToRoman();
+//        System.out.println(integerToRoman.intToRomanMyWay(58));
+
+        LengthOfLastWord lengthOfLastWord = new LengthOfLastWord();
+        int length = lengthOfLastWord.lengthOfLastWord("kkjdhsfkj jhdflkah kshdfka oiehrebfvids");
+        System.out.println(length);
     }
 }
