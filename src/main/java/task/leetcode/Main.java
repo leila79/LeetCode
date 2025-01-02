@@ -94,7 +94,10 @@ public class Main {
 //        String s = reverseWordsInString.reverseWords("the sky is blue");
 //        System.out.println(s);
 
-        ZigzagConversion zigzagConversion = new ZigzagConversion();
-        System.out.println(zigzagConversion.convert("PAYPALISHIRING",  4));
+//        ZigzagConversion zigzagConversion = new ZigzagConversion();
+//        System.out.println(zigzagConversion.convert("PAYPALISHIRING",  4));
+        NeedleInHaystack needleInHaystack = new NeedleInHaystack();
+        System.out.println(needleInHaystack.strStr("mississippi", "a"));
+
     }
 }
