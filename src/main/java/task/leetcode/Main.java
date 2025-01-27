@@ -99,10 +99,13 @@ public class Main {
 //        NeedleInHaystack needleInHaystack = new NeedleInHaystack();
 //        System.out.println(needleInHaystack.strStr("mississippi", "a"));
 
-        String[] words = new String[]{"ask","not","what","your","country","can","do","for","you","ask","what","you","can","do","for","your","country"};
-        int maxWidth = 16;
-        TextJustification textJustification = new TextJustification();
-        System.out.println(textJustification.fullJustify(words, maxWidth));
+//        String[] words = new String[]{"ask","not","what","your","country","can","do","for","you","ask","what","you","can","do","for","your","country"};
+//        int maxWidth = 16;
+//        TextJustification textJustification = new TextJustification();
+//        System.out.println(textJustification.fullJustify(words, maxWidth));
+
+        ValidPalindrome validPalindrome = new ValidPalindrome();
+        validPalindrome.isPalindrome(" ");
 
 
     }
