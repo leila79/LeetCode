@@ -104,8 +104,10 @@ public class Main {
 //        TextJustification textJustification = new TextJustification();
 //        System.out.println(textJustification.fullJustify(words, maxWidth));
 
-        ValidPalindrome validPalindrome = new ValidPalindrome();
-        validPalindrome.isPalindrome(" ");
+//        ValidPalindrome validPalindrome = new ValidPalindrome();
+//        System.out.println(validPalindrome.isPalindrome(" "));
+
+
 
 
     }

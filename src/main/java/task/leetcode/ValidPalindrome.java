@@ -2,6 +2,7 @@ package task.leetcode;
 
 public class ValidPalindrome {
     public boolean isPalindrome(String s) {
+        
         s = s.toLowerCase();
         StringBuilder forward = new StringBuilder();
         for (int i = 0; i < s.length(); i++) {
