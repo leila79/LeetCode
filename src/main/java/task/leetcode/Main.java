@@ -1,6 +1,8 @@
 package task.leetcode;
 
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 //        MergeSortedArray mergeSortedArray = new MergeSortedArray();
@@ -107,7 +109,8 @@ public class Main {
 //        ValidPalindrome validPalindrome = new ValidPalindrome();
 //        System.out.println(validPalindrome.isPalindrome(" "));
 
-
+        TwoSumII twoSumII = new TwoSumII();
+        System.out.println(Arrays.toString(twoSumII.twoSum(new int[]{-1,0}, -5)));
 
 
     }
