@@ -112,8 +112,11 @@ public class Main {
 //        TwoSumII twoSumII = new TwoSumII();
 //        System.out.println(Arrays.toString(twoSumII.twoSum(new int[]{-1,0}, -5)));
 
-        ContainerWithMostWater container = new ContainerWithMostWater();
-        container.maxArea(new int[]{1,3,2,5,25,24,5});
+//        ContainerWithMostWater container = new ContainerWithMostWater();
+//        container.maxArea(new int[]{1,3,2,5,25,24,5});
+
+        ThreeSum threeSum = new ThreeSum();
+        System.out.println(threeSum.threeSum(new int[]{-1,0,1,2,-1,-4}).toString());
 
 
     }
